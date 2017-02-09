@@ -10,7 +10,7 @@ for intcode in df['code']:
         try:
             stcode = str(intcode)
             client = Client()
-            client.init('3ac6213396d593c5caae8639416051c450e60f17bdb4fdefec54ff4dc8f1c952')
+            client.init('xx')#通联数据凭证
             #url1='/api/RRP/getReportJL.csv?field=&orgName=&BeginWriteDate=20161001&EndwriteDate=20170205&secID=&ticker='+stcode+'&title=&author='
             #code, result = client.getData(url1)
             #if code==200:
